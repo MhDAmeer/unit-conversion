@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="cont">
+      <!-- White side -->
+      <div class="mode">
+      <div class="main">
+      <h3 class="heading">Merit/Imperial Unit Conversion</h3>
+          <input
+            class="convrted-num"
+            type="text"
+            id="input-field"
+            maxlength="3"
+          />
+          <button class="btn" id="btn">Convert</button>
+    </div>
+    <div class="white-area">
+          <!-- 1 -->
+    <div class="white-grp">
+            <h3 class="white-list">Length (Meter/Feet)</h3>
+            <p class="white-convrsion" id="length"></p>
+      </div>
+          <!-- 2 -->
+    <div class="white-grp">
+            <h3 class="white-list">Volume (Liters/Gallons)</h3>
+            <p class="white-convrsion" id="volume"></p>
+    </div>
+          <!-- 3 -->
+    <div class="white-grp">
+            <h3 class="white-list">Mass (Kilograms/Pounds)</h3>
+            <p class="white-convrsion" id="mass"></p>
+      </div>
+      </div>
+      </div>
+
+      <!-- Dark side -->
+      <div class="mode">
+      <div class="main">
+          <h3 class="heading">Merit/Imperial Unit Conversion</h3>
+          <input
+            class="convrted-num"
+            type="text"
+            id="dark-input-field"
+            maxlength="3"
+          />
+          <button class="btn" id="dark-btn">Convert</button>
+      </div>
+    <div class="dark-area">
+          <!-- 1 -->
+    <div class="dark-grp">
+            <h3 class="dark-list">Length (Meter/Feet)</h3>
+            <p class="dark-convrsion" id="dark-length"></p>
+      </div>
+          <!-- 2 -->
+    <div class="dark-grp">
+            <h3 class="dark-list">Volume (Liters/Gallons)</h3>
+            <p class="dark-convrsion" id="dark-volume"></p>
+      </div>
+          <!-- 3 -->
+    <div class="dark-grp">
+            <h3 class="dark-list">Mass (Kilograms/Pounds)</h3>
+            <p class="dark-convrsion" id="dark-mass"></p>
+      </div>
+      </div>
+      </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>

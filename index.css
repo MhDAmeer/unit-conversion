@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .cont {
+    max-width: 1350px;
+    background-color: #1c1c1c;
+    margin: 50px auto;
+    padding: 120px 70px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+  }
+  
+  .heading {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .convrted-num {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 2px solid #b295ff;
+    width: 30%;
+    height: 90px;
+    margin: auto;
+    background: none;
+    text-align: center;
+    outline: none;
+  }
+  
+  .btn {
+    background-color: #fff;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3d3d3d;
+    border-radius: 5px;
+    padding: 10px 25px;
+    width: 120px;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 35px 50px;
+    gap: 25px;
+    background-color: #6943ff;
+  }
+  
+  .mode {
+    width: 550px;
+  }
+  
+  .white-area{
+    background-color: #f4f4f4;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .dark-area{
+    background-color: #1f2937;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .white-grp {
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+
+  .white-list{
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #5a537b;
+  }
+  
+  .white-convrsion{
+    margin-top: 10px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #353535;
+  }
+
+  .dark-grp {
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #273549;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .dark-list{
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ccc1ff;
+  }
+  
+  .dark-convrsion {
+    margin-top: 10px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+  }
+  
